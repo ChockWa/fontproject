@@ -1,5 +1,5 @@
 // import request from '@/utils/request'
-import fetch from '@/api/http'
+import fetch from '@/utils/http'
 
 function getSource(username) {
   return fetch({

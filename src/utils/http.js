@@ -3,6 +3,11 @@
 import axios from 'axios'
 import { Message } from 'element-ui'
 
+/**
+ * 封装axios
+ * @param options
+ * @returns {Promise}
+ */
 export default function fetch(options) {
   return new Promise((resolve, reject) => {
     const instance = axios.create({

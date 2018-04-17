@@ -15,7 +15,7 @@ export default {
   methods: {
     getSource() {
       sourceService.getSource('aaa').then(response => {
-        const result = response
+        console.log(response.data)
       })
     }
   }
